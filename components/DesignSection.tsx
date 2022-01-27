@@ -17,7 +17,7 @@ export default function DesignSection() {
         className={`absolute top-0 right-0 h-[150%] w-full -translate-y-[17%] skew-y-[12deg] bg-designCover bg-cover bg-bottom mix-blend-overlay`}
       />
       <div className="mx-5 flex max-w-md  skew-y-[12deg] flex-col items-start lg:mx-28 ">
-        <h1 className="font-Oswald text-8xl uppercase leading-normal">
+        <h1 className="font-Oswald text-7xl uppercase leading-normal sm:text-8xl">
           {'<D'}
           <span className="relative z-[3] text-primary">E</span>
           {'sign/>'}

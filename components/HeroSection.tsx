@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function HeroSection() {
   return (
-    <section className="relative h-screen w-full  overflow-hidden bg-primary">
+    <section className="overflow- relative h-screen  bg-primary">
       <video
         className=" absolute top-0 left-0 h-[130vh] w-full  object-cover opacity-20 mix-blend-overlay"
         autoPlay
