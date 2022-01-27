@@ -13,7 +13,7 @@ export default function HeroSection() {
         src="/assets/videos/hero.mp4"
       ></video>
 
-      <div className="relative flex h-[70vh] w-full flex-col items-center justify-end">
+      <div className="relative flex h-full w-full flex-col items-center justify-center sm:h-[70vh] sm:justify-end">
         <div className=" mx-auto  flex   flex-col items-center justify-around text-white lg:flex-row ">
           <div className="flex flex-col">
             <h1 className="ml-[6rem] font-Oswald text-4xl lg:ml-[9rem] lg:translate-y-8  lg:text-6xl">
