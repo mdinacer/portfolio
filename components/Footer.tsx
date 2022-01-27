@@ -35,7 +35,7 @@ export default function Footer() {
             </div>
           </a>
           <a
-            href="https://www.instagram.com/la_casa_des_enfants/"
+            href="https://www.instagram.com/poyzonous/"
             target={'_blank'}
             className="flex flex-col items-center rounded-md bg-purple py-3 px-5 text-white transition-all duration-700 hover:bg-purple md:bg-dark lg:scale-90 lg:hover:scale-110"
             rel="noreferrer"
@@ -48,7 +48,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="https://www.facebook.com/LACASADESENFANT"
+            href="https://www.facebook.com/mdi.nacer.5"
             rel="noreferrer"
             target={'_blank'}
             className="flex flex-col items-center rounded-md bg-[#4267B2] py-3 px-5 text-white transition-all duration-700 hover:bg-[#4267B2] md:bg-dark lg:scale-90 lg:hover:scale-110"
