@@ -35,7 +35,7 @@ export default function Home() {
         <title>My Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="manifest" href={'/site.webmanifest'} />
-        <meta property="og:title" content="La Casa des enfants" />
+        <meta property="og:title" content="MDI Nacer Portfolio" />
         <meta
           property="og:description"
           content="Mohammedi Abdenasser web developer Portfolio."
