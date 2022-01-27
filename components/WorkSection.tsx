@@ -6,7 +6,7 @@ type ProjectType = 'fullstack' | 'backend' | 'frontend'
 
 export default function WorkSection() {
   return (
-    <>
+    <div className="pb-32">
       <MyWorkHeader />
       <section className="container relative flex min-h-[50vh]  translate-y-[10%] flex-col items-center justify-start pb-20 ">
         <div className="relative mx-auto grid grid-flow-row grid-cols-1 gap-4 lg:grid-cols-3">
@@ -56,7 +56,7 @@ export default function WorkSection() {
           ))}
         </div>
       </section>
-    </>
+    </div>
   )
 }
 
