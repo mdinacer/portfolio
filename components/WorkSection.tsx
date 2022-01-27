@@ -26,6 +26,9 @@ export default function WorkSection() {
                   src={`/assets/images/projects/thumbnails/${project.image}`}
                   layout="fill"
                   alt={project.type}
+                  loading="lazy"
+                  placeholder="blur"
+                  blurDataURL={`/assets/images/projects/thumbnails/${project.image}`}
                 />
               </div>
               <p className="pr- flex-auto font-RobotoC text-sm font-light">
