@@ -1,82 +1,61 @@
 import Head from 'next/head'
+import CodeSection from '../components/CodeSection'
+import DesignSection from '../components/DesignSection'
+import Footer from '../components/Footer'
+import HeroSection from '../components/HeroSection'
+import WorkSection from '../components/WorkSection'
+
+const frontEnd = [
+  'JavaScript',
+  'TypeScript',
+  'HTML',
+  'CSS',
+  'React',
+  'Angular',
+  'TailWindCSS',
+  'Bootstrap',
+  'Material UI',
+].sort()
+
+const backEnd = [
+  '.Net',
+  'NodeJs',
+  'Python / Django',
+  'SQL Databases',
+
+  'Entity Framework',
+  'Flutter/Dart',
+  'RestAPI',
+].sort()
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
+    <div>
       <Head>
-        <title>Create Next App</title>
+        <title>StaticVoid - Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          Welcome to{' '}
-          <a className="text-blue-600" href="https://nextjs.org">
-            Next.js!
-          </a>
-        </h1>
-
-        <p className="mt-3 text-2xl">
-          Get started by editing{' '}
-          <code className="rounded-md bg-gray-100 p-3 font-mono text-lg">
-            pages/index.tsx
-          </code>
-        </p>
-
-        <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
-          <a
-            href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+      <main className="h-full w-full bg-light">
+        <div className="relative h-screen w-full bg-primary">
+          <HeroSection />
         </div>
+        <div className="bg-primary">
+          <DesignSection />
+        </div>
+        <CodeSection />
+        <WorkSection />
       </main>
 
-      <footer className="flex h-24 w-full items-center justify-center border-t">
-        <a
-          className="flex items-center justify-center"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="ml-2 h-4" />
-        </a>
-      </footer>
+      <Footer />
     </div>
   )
 }
+
+//https://vod-progressive.akamaized.net/exp=1643168988~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F3853%2F14%2F369268136%2F1529329930.mp4~hmac=4e4919b0eeaacc167d99b01a95f080b9643a409b6e1e9f8298502611eadcdabc/vimeo-prod-skyfire-std-us/01/3853/14/369268136/1529329930.mp4?download=1&filename=video.mp4
+
+//https://vod-progressive.akamaized.net/exp=1643170238~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F2394%2F22%2F561971096%2F2657522954.mp4~hmac=c8c6054590c656a6c73cb34dc1760109a2cee7e1afef286f87c05fb831430efe/vimeo-prod-skyfire-std-us/01/2394/22/561971096/2657522954.mp4?download=1&filename=pexels-rostislav-uzunov-8303104.mp4
+
+//https://vod-progressive.akamaized.net/exp=1643170421~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F2713%2F21%2F538569592%2F2552351901.mp4~hmac=0996ad948759d9e41914e26e1336c402cab779d27779651ffe579de3e1e2561f/vimeo-prod-skyfire-std-us/01/2713/21/538569592/2552351901.mp4?download=1&filename=pexels-mart-production-7565462.mp4
+
+//https://vod-progressive.akamaized.net/exp=1643170772~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4885%2F22%2F574425766%2F2713906592.mp4~hmac=905b4d79f2fb9eefe1f1c73ff64e3f743f85bc49593b58e931b1270f7924c7e7/vimeo-prod-skyfire-std-us/01/4885/22/574425766/2713906592.mp4?download=1&filename=pexels-crazy-motions-8733062.mp4
