@@ -12,6 +12,7 @@ export default function HeroSection() {
         loop
         src="/assets/videos/hero.mp4"
       ></video>
+      <div className=" absolute h-[130vh] min-h-screen w-full bg-primary mix-blend-overlay"></div>
 
       <div className="relative flex h-full w-full flex-col items-center justify-center sm:h-[70vh] sm:justify-end">
         <div className=" mx-auto  flex   flex-col items-center justify-around text-white lg:flex-row ">
