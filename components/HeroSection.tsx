@@ -28,7 +28,7 @@ export default function HeroSection() {
           <div className=" my-3 h-2 w-full bg-secondary lg:mx-6 lg:h-40 lg:w-2  "></div>
 
           <div className="mr-auto flex flex-col pb-7">
-            <h1 className="font-Oswald text-5xl lg:translate-y-5 lg:translate-x-[11%]    lg:text-7xl">
+            <h1 className="font-Oswald text-5xl lg:translate-y-[18px] lg:translate-x-[33px]    lg:text-7xl">
               <span>Des</span>
               <span className="font-Oswald text-5xl  text-secondary lg:text-8xl">
                 i

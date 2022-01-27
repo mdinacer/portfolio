@@ -32,8 +32,19 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>StaticVoid - Portfolio</title>
+        <title>My Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="manifest" href={'/site.webmanifest'} />
+        <meta property="og:title" content="La Casa des enfants" />
+        <meta
+          property="og:description"
+          content="Mohammedi Abdenasser web developer Portfolio."
+        />
+        <meta
+          property="og:image"
+          content="
+          /preview.jpg"
+        />
       </Head>
 
       <main className="h-full w-full bg-light">
