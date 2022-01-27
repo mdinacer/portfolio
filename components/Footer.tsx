@@ -35,7 +35,7 @@ export default function Footer() {
             </div>
           </a>
           <a
-            href="https://www.instagram.com/poyzonous/"
+            href="https://github.com/mdinacer"
             target={'_blank'}
             className="flex flex-col items-center rounded-md bg-purple py-3 px-5 text-white transition-all duration-700 hover:bg-purple md:bg-dark lg:scale-90 lg:hover:scale-110"
             rel="noreferrer"
