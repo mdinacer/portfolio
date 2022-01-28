@@ -12,7 +12,7 @@ export default function HeroSection() {
         loop
         src="/assets/videos/hero.mp4"
       ></video>
-      <div className=" absolute h-[130vh] min-h-screen w-full bg-primary mix-blend-overlay"></div>
+      <div className=" absolute h-[130vh] min-h-screen w-full bg-primary opacity-50 mix-blend-overlay"></div>
 
       <div className="relative flex h-full w-full flex-col items-center justify-center sm:h-[70vh] sm:justify-end">
         <div className=" mx-auto  flex   flex-col items-center justify-around text-white lg:flex-row ">
@@ -53,14 +53,14 @@ export default function HeroSection() {
         </p>
 
         <div className="my-5 flex flex-col font-Oswald text-lg text-white sm:flex-row">
-          <Link href={'/about'}>
+          {/* <Link href={'/about'}>
             <button
               className=" m-3 rounded-md border-2 border-secondary px-4 py-2 transition-all duration-300 hover:scale-110 "
               type="button"
             >
               About Me
             </button>
-          </Link>
+          </Link> */}
           <Link href={'#contact'}>
             <button
               className=" m-3 rounded-md border-2 bg-secondary px-4 py-2 text-primary transition-all duration-300 hover:scale-110"
