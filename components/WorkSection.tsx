@@ -32,11 +32,11 @@ export default function WorkSection() {
               <p className="pr- flex-auto font-RobotoC text-sm font-light">
                 {project.desc}
               </p>
-              <div className="flex-wra mt-3 flex max-w-sm flex-row justify-around">
+              <div className="mt-3 flex max-w-sm flex-row flex-wrap justify-start">
                 {project.items.map((item, index) => (
                   <div
                     key={index}
-                    className="mr-1 mb-1 w-full bg-dark py-1 px-2 text-light"
+                    className="mr-1 mb-1 w-auto bg-dark py-1 px-2 text-light"
                   >
                     <p className="font-RobotoC text-sm font-light">{item}</p>
                   </div>
