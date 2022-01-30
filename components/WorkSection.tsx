@@ -2,8 +2,6 @@ import { faLink } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Image from 'next/image'
 
-type ProjectType = 'fullstack' | 'backend' | 'frontend'
-
 export default function WorkSection() {
   return (
     <div className="pb-32">
@@ -94,7 +92,7 @@ const projects = [
     id: 1,
     type: 'Restaurant / E-commerce',
     title: (
-      <h1 className="text-black flex flex-initial flex-row items-center font-Oswald text-3xl uppercase leading-normal">
+      <h1 className="flex flex-initial flex-row items-center font-Oswald text-3xl uppercase leading-normal text-black">
         <span>{`<{`}</span>
         <span className=" text-primary">OH</span>
         <span>FOOD</span>
@@ -102,7 +100,7 @@ const projects = [
       </h1>
     ),
     desc: 'A Restaurant website for showcasing your receipts and also provide Order/Delivery service for customers.',
-    items: ['NET6', 'POSTGRES', 'React', 'Material UI'],
+    items: ['NET6', 'POSTGRES', 'React', 'Redux', 'Material UI'],
     link: 'https://oh-food.herokuapp.com',
     image: 'ohfood.jpg',
   },
@@ -111,7 +109,7 @@ const projects = [
     id: 2,
     type: 'Portfolio',
     title: (
-      <h1 className="text-black mb-2 flex flex-initial flex-row items-center font-Oswald text-3xl uppercase">
+      <h1 className="mb-2 flex flex-initial flex-row items-center font-Oswald text-3xl uppercase text-black">
         <span>{`<`}</span>
         <span className=" text-primary">LOLA</span>
         <span>DECO</span>
@@ -128,7 +126,7 @@ const projects = [
     id: 3,
     type: 'Toys Shop / E-commerce',
     title: (
-      <h1 className="text-black  flex-initial font-Oswald text-3xl uppercase leading-normal">
+      <h1 className="flex-initial  font-Oswald text-3xl uppercase leading-normal text-black">
         <span>{`<LA `}</span>
         <span className=" text-primary">CASA </span>
         <span>DES ENFANTS</span>
