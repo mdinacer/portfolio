@@ -45,7 +45,7 @@ export default function HeroSection() {
         </div>
 
         <p className="justify-start px-4 font-RobotoC font-thin text-white lg:max-w-[50rem]">
-          Hi, I'm a fullstack web developer, based in Algeria.
+          Hi, I&apos;m a fullstack web developer, based in Algeria.
           <br />I started coding late 2014, but my love for coding started at
           early age when I started coding with Pascal and Delphi 2. I Have
           always been fascinated by complex yet clean code, but Also by
@@ -61,7 +61,7 @@ export default function HeroSection() {
               About Me
             </button>
           </Link> */}
-          <Link href={'#contact'}>
+          <Link href={'#contact'} passHref>
             <button
               className=" m-3 rounded-md border-2 bg-secondary px-4 py-2 text-primary transition-all duration-300 hover:scale-110"
               type="button"

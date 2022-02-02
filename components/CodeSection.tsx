@@ -23,7 +23,7 @@ export default function CodeSection() {
         <p className=" text-normal w-full px-4 py-2 text-right font-RobotoC">
           I mainly use .Net for backend development creating Rest and GraphQl
           APIs. <br />I also have used Python with Django, Flutter/Dart for
-          mobile apps, so I'm used to their syntax and patterns. <br />
+          mobile apps, so I&apos;m used to their syntax and patterns. <br />
           For databases I use PostgreSQL, but also used MySQL/mariaDb,
           MSSql/LocalDb and SQLite.
         </p>
